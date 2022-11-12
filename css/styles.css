@@ -6,6 +6,7 @@ h1 {
     color: darkred;
 }
 
+/* General*/
 .highlight {
     color: var(--red);
 }
