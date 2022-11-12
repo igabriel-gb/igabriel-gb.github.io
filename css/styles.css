@@ -6,7 +6,10 @@ h1 {
     color: darkred;
 }
 
+
+h2{}
 /* General*/
-.highlight{
-    color: var(--red);
+.highlight {
+    color: var(--main-color);
 }
+
