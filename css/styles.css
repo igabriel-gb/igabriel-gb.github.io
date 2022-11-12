@@ -7,9 +7,12 @@ h1 {
 }
 
 
-h2{}
+h2{
+    color:rgb(231, 13, 220)
+}
+
 /* General*/
 .highlight {
-    color: var(--main-color);
+    color:blue;
 }
 
