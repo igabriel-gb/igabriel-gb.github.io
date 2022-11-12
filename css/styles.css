@@ -5,3 +5,7 @@
 h1 { 
     color: darkred;
 }
+
+.highlight {
+    color: var(--red);
+}
