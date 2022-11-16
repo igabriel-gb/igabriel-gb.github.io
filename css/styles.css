@@ -82,6 +82,16 @@
 
 
 }
+
+#big-container #welcome-text{
+    font-weight: bold;
+}
+
+
+
+
+
+/*imagem*/
 #bio-img {
     width: 175px;
     height: 175px;
@@ -89,3 +99,86 @@
     margin-bottom: 25px;
 }
 
+
+
+
+
+
+/*redes sociasis*/
+#sicial-container {
+display: flex;
+justify-content: center;
+list-style: none;
+border-bottom: 1px solid var(--border-collor);
+margin-bottom: 25px;
+padding-bottom: 25px;
+
+}
+
+#sicial-container li{
+    flex: 1 1 0;
+    max-width: 60px;
+}
+
+#sicial-container li a{
+    color: var(--main-text-collor);
+    font-size: 30px;
+}
+
+#email-container {
+    display: flex;
+    justify-content: center;
+    color: var(--main-text-collor);
+}
+
+
+#email-container a{
+    color: rgb(69, 66, 241);
+    text-decoration: none;
+    max-width: 225px;
+    justify-content: center;
+}
+
+
+
+/*about container*/
+#name {
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+.description{
+    max-width: 75%;
+    margin-bottom: 10px;
+}
+
+#btn-projrcts {
+    font-weight: bolder;
+    font-size: 16px;
+    color: var(--main-text-collor);
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .5s;
+    margin: 25px 0;
+    padding: 12px 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+}
+
+#btn-projrcts ion-icon,
+#btn-projrcts span {
+    flex: 1 1 0;
+}
+
+#btn-projrcts ion-icon {
+    font-size: 20px;
+    max-width: 20px;
+}
+
+#btn-projects {
+    background-color: transparent;
+}
