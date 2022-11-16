@@ -38,12 +38,37 @@
     border-right: 5px solid var(--bio-border-collor);
 }
 
+
+
+
+/* about */
+
 #about-container {
     flex: 1 1 100%;
     height: 100vh;
     background-color: var(--about-bg-collor);
     padding: 50px;
 }
+
+#about-container h1 {
+
+    padding: 8px;
+    color: var(--main-text-collor);
+}
+
+#about-container p {
+    padding: 8px;
+    color: var(--main-text-collor);
+}
+
+#about-container h2{
+    padding: 8px;
+    color: var(--main-text-collor);
+}
+
+
+
+
 
 /*bio container*/
 #big-container h2 {
