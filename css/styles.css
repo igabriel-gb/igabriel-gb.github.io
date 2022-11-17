@@ -70,51 +70,6 @@ border-bottom: 1px solid var(--border-collor);
 margin-bottom: 10px;
 padding-bottom: 25px;
 }
-
-
-________________________________________________________
-
-
-
-
-
-#skills-section-title{
-    border-top: 1px solid var(--border-collor);
-    padding-top: 20px;
-    margin-bottom: 20px;
-    font-size: 32px;
-}
-
-/* about */
-
-#about-container {
-    flex: 1 1 120%;
-    min-height: 100vh;
-    background-color: var(--about-bg-collor);
-    padding: 50px;
-}
-
-#about-container 
-h1 {
-    padding: 8px;
-    color: var(--main-text-collor);
-}
-
-#about-container p {
-    padding: 8px;
-    color: var(--main-text-collor);
-}
-
-#about-container h2{
-    padding: 10px;
-    color: var(--main-text-collor);
-}
-
-
-
-
-
-
 #sicial-container li{
     flex: 1 1 0;
     max-width: 60px;
@@ -124,35 +79,52 @@ h1 {
     color: var(--main-color);
     font-size: 30px;
 }
-
+/*parte 1.3*/
 #email-container {
     display: flex;
     justify-content: center;
     color: var(--main-color);
 
 }
-
 #email-container a{
     color: rgb(215, 241, 66);
     text-decoration: none;
     max-width: 225px;
     justify-content: center;
 }
-
-
-
-/*about container*/
+________________________________________________________
+/*parte 2*/
+________________________________________________________
+/*parte 2.6 e comando geral*/
+#skills-section-title{
+    border-top: 1px solid var(--border-collor);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+/*geral*/
+#about-container {
+    flex: 1 1 120%;
+    min-height: 100vh;
+    background-color: var(--about-bg-collor);
+    padding: 50px;
+}
+/*parte 2.1*/
+#about-container 
+h1 {
+    padding: 8px;
+    color: var(--main-text-collor);
+}
 #name {
     font-size: 24px;
     margin-bottom: 15px;
-
 }
-
-.description{
-    max-width: 75%;
-    margin-bottom: 10px;
+/*parte 2.2*/
+#about-container p {
+    padding: 8px;
+    color: var(--main-text-collor);
 }
-
+/*parte 2.3*/
 #btn-projrcts {
     font-weight: bolder;
     font-size: 16px;
@@ -168,17 +140,30 @@ h1 {
     text-align: center;
     display: flex;
 }
-
 #btn-projrcts ion-icon,
 #btn-projrcts span {
     flex: 1 1 0;
 }
-
 #btn-projrcts ion-icon {
     font-size: 20px;
     max-width: 20px;
 }
-
-#btn-projects {
+#btn-projects:hover {
     background-color: transparent;
+}
+/*parte 2.4*/
+#about-container h2{
+    padding: 10px;
+    color: var(--main-text-collor);
+}
+#skills-section-title{
+    border-top: 1px solid var(--border-collor);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+/*parte 2.5*/
+.description{
+    max-width: 75%;
+    margin-bottom: 10px;
 }
