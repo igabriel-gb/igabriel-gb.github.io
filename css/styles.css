@@ -1,12 +1,12 @@
-/* reset */
+/* projeto total */
 *{
     padding: 0;
     margin: 0;
-     font-family: 'Roboto', sans-serif;
+     font-family: Arial;
      box-sizing: border-box;
 }
 
-/* variables */
+/* cores padroes */
 
 :root {
     --main-color: #54b689;
@@ -17,18 +17,18 @@
     --about-bg-collor: #111821;
 }
 
-/* general */
+/* destaque do texto do projeto */
 .highlight {
     color: var(--main-color);
 }
 
-/* containers */
+/* texto do progeto */
 #container {
     display: flex;
     flex-direction: row;
     color: var(--mais-text-collor);
 }
-
+/* barra lateral do projeto */
 #big-container {
     flex: 1 1 30%;
     min-height: 100vh;
@@ -37,21 +37,65 @@
     padding: 30px 12px;
     border-right: 5px solid var(--bio-border-collor);
 }
+______________________________________________________
+
+#bi-container 
+#welcome-text{
+    font-weight: nor;
+}
+
+/*parte 1.1*/
+#big-container h2 {
+   margin-bottom: 25px;
+   color: var(--main-text-collor);
+}
+/* paragrafo da parte 1.1*/
+#big-container p {
+    margin-bottom: 5px;
+    color: var(--main-text-collor)
+}
+/*imagem*/
+#bio-img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+/*redes sociasis parte 1.2*/
+#sicial-container {
+display: flex;
+justify-content: center;
+list-style: none;
+border-bottom: 1px solid var(--border-collor);
+margin-bottom: 10px;
+padding-bottom: 25px;
+}
+
+
+________________________________________________________
 
 
 
+
+
+#skills-section-title{
+    border-top: 1px solid var(--border-collor);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
 
 /* about */
 
 #about-container {
-    flex: 1 1 100%;
-    height: 100vh;
+    flex: 1 1 120%;
+    min-height: 100vh;
     background-color: var(--about-bg-collor);
     padding: 50px;
 }
 
-#about-container h1 {
-
+#about-container 
+h1 {
     padding: 8px;
     color: var(--main-text-collor);
 }
@@ -62,7 +106,7 @@
 }
 
 #about-container h2{
-    padding: 8px;
+    padding: 10px;
     color: var(--main-text-collor);
 }
 
@@ -70,50 +114,6 @@
 
 
 
-/*bio container*/
-#big-container h2 {
-   margin-bottom: 25px;
-   color: var(--main-text-collor);
-
-}
-
-#big-container p {
-    color: var(--main-text-collor)
-
-
-}
-
-#big-container #welcome-text{
-    font-weight: bold;
-}
-
-
-
-
-
-/*imagem*/
-#bio-img {
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    margin-bottom: 25px;
-}
-
-
-
-
-
-
-/*redes sociasis*/
-#sicial-container {
-display: flex;
-justify-content: center;
-list-style: none;
-border-bottom: 1px solid var(--border-collor);
-margin-bottom: 25px;
-padding-bottom: 25px;
-
-}
 
 #sicial-container li{
     flex: 1 1 0;
@@ -121,19 +121,19 @@ padding-bottom: 25px;
 }
 
 #sicial-container li a{
-    color: var(--main-text-collor);
+    color: var(--main-color);
     font-size: 30px;
 }
 
 #email-container {
     display: flex;
     justify-content: center;
-    color: var(--main-text-collor);
+    color: var(--main-color);
+
 }
 
-
 #email-container a{
-    color: rgb(69, 66, 241);
+    color: rgb(215, 241, 66);
     text-decoration: none;
     max-width: 225px;
     justify-content: center;
